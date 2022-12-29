@@ -23,7 +23,7 @@ cleaned_word = re.sub('\W+','',check_word)
 #                 is_palindrome = True
 #             else:
 #                 pass
-#     print(is_palindrome)
+#     return is_palindrome
 
 def check_palindrome(word):
     forward = word
